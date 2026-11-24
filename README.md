@@ -53,6 +53,7 @@ Follow [docs/GCP_SETUP.md](docs/GCP_SETUP.md) (3 minutes) to download `credentia
 chmod 600 credentials.json
 ./.venv/bin/python gmail_triage.py auth
 ```
+This opens your browser once to grant `gmail.readonly` + `gmail.compose` access and **automatically generates your local `token.json`** (set to `chmod 600` and gitignored — you do not need to create `token.json` manually).
 
 ### 4. Register the MCP Server in your AI client
 Add the snippet printed by `setup_wizard.py` to your client's MCP config:
@@ -128,8 +129,9 @@ gmail-personal-mcp/
 └── requirements.txt
 ```
 
-## Security Reminder Before Pushing Forks
-Never commit `credentials.json`, `token.json`, `config.json`, `gmail_filters.xml`, or `reports/` — all of them are ignored by `.gitignore` by default.
+## Security Reminder
+- Never commit `credentials.json` (your GCP Desktop app ID), `token.json` (your auto-generated local OAuth token), `config.json`, `gmail_filters.xml`, or `reports/` — all of them are ignored by `.gitignore` by default.
+- You can revoke access at any time from [Google Account Permissions](https://myaccount.google.com/permissions).
 
 ## License
 MIT (see [LICENSE](LICENSE)).

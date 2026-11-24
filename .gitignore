@@ -1,0 +1,16 @@
+# Secrets & personal OAuth credentials (NEVER commit!)
+credentials.json
+token.json
+client_secret*.json
+
+# Personal runtime config, exported filters, and email reports
+config.json
+gmail_filters.xml
+reports/
+
+# Python & OS artifacts
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store

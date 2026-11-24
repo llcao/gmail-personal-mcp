@@ -21,12 +21,8 @@ Built for busy people—especially **university faculty, researchers, and confer
 - **Python 3.10+**
 - A **Gmail account** (`@gmail.com`) — if your university/company uses Outlook/Exchange, simply enable auto-forwarding to Gmail.
 - A free **Google Cloud (GCP) OAuth Desktop `credentials.json`** (~3 minutes to create, no credit card needed; see [docs/GCP_SETUP.md](docs/GCP_SETUP.md)).
-- Any **MCP-compatible AI client**:
-  - Google Antigravity (`agy` CLI / App)
-  - Claude Desktop / Claude Code
-  - Cursor
+- This repo has been tested with **Google Antigravity** (`agy` CLI). But very likely other  MCP-compatible AI client like Claude Code/Codex/Cursor can also work.
 
-*(Tip: Even **without** setting up GCP or MCP, you can run `setup_wizard.py` to generate a ready-to-import `gmail_filters.xml` for your role preset and clean up your Gmail in 1 minute!)*
 
 ---
 

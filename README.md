@@ -128,7 +128,7 @@ gmail-personal-mcp/
 ├── scripts/                 # Optional macOS launchd 07:00 wake-on-sleep runner
 ├── docs/
 │   ├── GCP_SETUP.md         # Step-by-step Google Cloud OAuth setup & troubleshooting
-│   └── mcp_guide_zh.html    # Interactive Chinese visual guide (Setup, Remote MCP caveats, MCP 101)
+│   └── WHY_LOCAL_MCP.md     # Architecture notes: why local Stdio MCP vs. hosted remote MCP & scripts
 └── requirements.txt
 ```
 

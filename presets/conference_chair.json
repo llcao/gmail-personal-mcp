@@ -1,0 +1,131 @@
+{
+  "preset_name": "conference_chair",
+  "lookback_days": 3,
+  "max_messages": 100,
+  "audit_days": 30,
+  "my_emails": [
+    "you@gmail.com",
+    "you@university.edu"
+  ],
+  "university_domain": "university.edu",
+  "preferences": {
+    "auto_create_drafts_for_urgent_replies": true,
+    "never_auto_send": true,
+    "avoid_duplicate_drafts": true,
+    "never_cc_helpdesk_on_author_replies": true
+  },
+  "vip_senders": [
+    "@university.edu"
+  ],
+  "priority_topic": {
+    "enabled": true,
+    "label": "0-Conference-PC",
+    "helpdesk_email": "conference_pcs@example.org",
+    "internal_list_email": "internal_pcs@example.org",
+    "senders_or_domains": [
+      "conference_pcs@example.org",
+      "internal_pcs@example.org"
+    ],
+    "auto_ack_subjects": [
+      "ticket received -"
+    ],
+    "keywords": [
+      "CONF2027",
+      "program chair",
+      "program chairs",
+      "freshdesk"
+    ],
+    "high_priority_keywords": [
+      "urgent",
+      "asap",
+      "deadline",
+      "overdue",
+      "action required",
+      "escalation",
+      "desk reject",
+      "desk-reject",
+      "desk-rejected",
+      "at risk",
+      "policy question",
+      "please advise",
+      "author omission",
+      "enrollment",
+      "ethics",
+      "plagiarism",
+      "dual submission",
+      "conflict of interest",
+      "coi",
+      "appeal",
+      "reconsideration",
+      "withdrawal",
+      "emergency",
+      "missing review",
+      "late review",
+      "decision",
+      "approval"
+    ],
+    "reply_template": "Dear {name},\n\nThank you for reaching out regarding submission #{paper_id}. The Program Chairs and technical team are actively reviewing cases of this type.\n\nIf you haven't already, please send a copy of your message to {helpdesk_email} so your follow-up stays linked with the official Help Desk queue. You will receive an official update via your Help Desk ticket once verification is complete.\n\nBest regards,\n{signature}\n"
+  },
+  "bulk_notice_senders": [
+    "notice@",
+    ".notice@",
+    "news@",
+    ".news@",
+    "marketing@",
+    "staff.club@",
+    "staff.association@",
+    "notifications@instructure.com"
+  ],
+  "urgent_keywords": [
+    "urgent",
+    "asap",
+    "deadline",
+    "due",
+    "overdue",
+    "for reply by",
+    "action required",
+    "approval",
+    "approve",
+    "signature",
+    "reimbursement",
+    "expense claim",
+    "solicit input",
+    "declaration form",
+    "attendance confirmation",
+    "warm reminder",
+    "gentle follow up",
+    "invoice",
+    "payment",
+    "grant",
+    "funding",
+    "reminder",
+    "final notice",
+    "紧急",
+    "截止",
+    "报销",
+    "审批",
+    "请回复",
+    "请确认"
+  ],
+  "deprioritize_domains_or_keywords": [
+    "noreply@",
+    "no-reply@",
+    "donotreply@",
+    "newsletter",
+    "notifications@",
+    "digest@",
+    "marketing@",
+    "manuscriptcentral.com",
+    "academia-mail.com"
+  ],
+  "filter_rules": {
+    "enable_faculty_admin_label": true,
+    "enable_grants_label": true,
+    "enable_hiring_label": true,
+    "enable_campus_notices_label": true,
+    "enable_journal_archive_label": true,
+    "family_school_domains": [],
+    "finance_domains": [],
+    "archive_promotions_and_newsletters": true
+  }
+}

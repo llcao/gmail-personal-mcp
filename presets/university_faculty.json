@@ -1,0 +1,110 @@
+{
+  "preset_name": "university_faculty",
+  "lookback_days": 3,
+  "max_messages": 100,
+  "audit_days": 30,
+  "my_emails": [
+    "you@gmail.com",
+    "you@university.edu"
+  ],
+  "university_domain": "university.edu",
+  "preferences": {
+    "auto_create_drafts_for_urgent_replies": true,
+    "never_auto_send": true,
+    "avoid_duplicate_drafts": true
+  },
+  "vip_senders": [
+    "@university.edu"
+  ],
+  "priority_topic": {
+    "enabled": false,
+    "label": "0-Conference-Chair",
+    "senders_or_domains": [],
+    "auto_ack_subjects": [
+      "ticket received -"
+    ],
+    "keywords": [],
+    "high_priority_keywords": [
+      "urgent",
+      "deadline",
+      "desk reject",
+      "desk-reject",
+      "ethics",
+      "appeal",
+      "reconsideration",
+      "conflict of interest"
+    ],
+    "reply_template": ""
+  },
+  "bulk_notice_senders": [
+    "notice@",
+    ".notice@",
+    "news@",
+    ".news@",
+    "marketing@",
+    "staff.club@",
+    "staff.association@",
+    "notifications@instructure.com"
+  ],
+  "urgent_keywords": [
+    "urgent",
+    "asap",
+    "deadline",
+    "due",
+    "overdue",
+    "for reply by",
+    "action required",
+    "approval",
+    "approve",
+    "signature",
+    "reimbursement",
+    "expense claim",
+    "solicit input",
+    "declaration form",
+    "attendance confirmation",
+    "warm reminder",
+    "gentle follow up",
+    "gently follow up",
+    "invoice",
+    "payment",
+    "grant",
+    "funding",
+    "reminder",
+    "final notice",
+    "immediately",
+    "紧急",
+    "加急",
+    "截止",
+    "报销",
+    "审批",
+    "签字",
+    "请回复",
+    "请确认",
+    "逾期",
+    "提醒"
+  ],
+  "deprioritize_domains_or_keywords": [
+    "noreply@",
+    "no-reply@",
+    "donotreply@",
+    "newsletter",
+    "notifications@",
+    "digest@",
+    "marketing@",
+    "manuscriptcentral.com",
+    "academia-mail.com"
+  ],
+  "filter_rules": {
+    "enable_faculty_admin_label": true,
+    "enable_grants_label": true,
+    "enable_hiring_label": true,
+    "enable_campus_notices_label": true,
+    "enable_journal_archive_label": true,
+    "family_school_domains": [],
+    "finance_domains": [
+      "vanguard.com",
+      "fidelity.com"
+    ],
+    "archive_promotions_and_newsletters": true
+  }
+}
